@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>thecodegeek page</title>
+        <link rel="stylesheet" href="{% static "css/style.css" %}">
+    </head>
+
+    <body>
+    <h1>{{ text|cut:'world' }}</h1>
+    <h1>{{ number|add:309 }}</h1>
+    </body>
+</html>
