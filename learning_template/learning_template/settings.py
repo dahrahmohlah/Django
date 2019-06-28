@@ -26,7 +26,7 @@ SECRET_KEY = 'y2($((o7w8hr&&a@12t!k#!26d6jg+&+r)o_-#mxb8q-eseg@c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thecodegeek.pythonanywhere.com',]
 
 
 # Application definition
